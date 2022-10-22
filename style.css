@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    background-color: rgba(33, 37, 41);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+    box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.margin-Size {
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 1.6vw;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.button-green {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    border: 2px solid rgba(0, 128, 0, 0.75);
+    color: rgba(0, 128, 0, 0.75);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 10px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+button:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 40px 40px rgba(0, 128, 0, 0.75) inset;
+}
+
+.button-red {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    border: 2px solid hsla(0, 100%, 50%, 0.75);
+    color: hsla(0, 100%, 50%, 0.75);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 10px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+}
+.button-red:hover {
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 40px 40px hsla(0, 100%, 50%, 0.75) inset;
+}
+
+@media screen and (max-width: 48rem) {
+    .margin-Size {
+        font-size: 5vw;
+    }
+    .button-green {
+        font-size: 0.7rem;
+        margin-top: 30px;
+    }
+    .button-red {
+        font-size: 0.7rem;
+    }
+    .marginTop {
+        margin-top: 60px;
+    }
+}
